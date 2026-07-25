@@ -1,28 +1,28 @@
 import { ClinicInfo, DentalService, Doctor, GalleryItem, Review, PatientRecord, AuditLog } from '../types';
-const vihannaDoctor = '/src/assets/images/vihanna_doctor_1784918556857.jpg';
-const vihannaOperatory = '/src/assets/images/vihanna_operatory_1784918541912.jpg';
-const vihanaExteriorSign = '/src/assets/images/vihana_exterior_sign_1784919394277.jpg';
-const drSanchanaConsultation = '/src/assets/images/dr_sanchana_consultation_1784919412452.jpg';
-const vihanaDentalCamp = '/src/assets/images/vihana_dental_camp_1784919430609.jpg';
-const invisalignBoxes = '/src/assets/images/invisalign_aligners_boxes_1784919447537.jpg';
-const rootCanalCapTransformation = '/src/assets/images/root_canal_cap_transformation_1784919469961.jpg';
+const vihannaDoctor = '/assets/images/vihanna_doctor_1784918556857.jpg';
+const vihannaOperatory = '/assets/images/vihanna_operatory_1784918541912.jpg';
+const vihanaExteriorSign = '/assets/images/vihana_exterior_sign_1784919394277.jpg';
+const drSanchanaConsultation = '/assets/images/dr_sanchana_consultation_1784919412452.jpg';
+const vihanaDentalCamp = '/assets/images/vihana_dental_camp_1784919430609.jpg';
+const invisalignBoxes = '/assets/images/invisalign_aligners_boxes_1784919447537.jpg';
+const rootCanalCapTransformation = '/assets/images/root_canal_cap_transformation_1784919469961.jpg';
 
 // Service custom images
-const implantsServiceImg = '/src/assets/images/dental_implants_img_1784928139754.jpg';
-const invisalignServiceImg = '/src/assets/images/invisalign_aligners_img_1784928150711.jpg';
-const rootCanalServiceImg = '/src/assets/images/laser_root_canal_img_1784928162832.jpg';
-const cosmeticSmileServiceImg = '/src/assets/images/cosmetic_smile_img_1784928176731.jpg';
-const teethWhiteningServiceImg = '/src/assets/images/teeth_whitening_img_1784928192826.jpg';
-const pediatricServiceImg = '/src/assets/images/pediatric_dental_img_1784928204990.jpg';
-const wisdomToothServiceImg = '/src/assets/images/wisdom_tooth_img_1784928216053.jpg';
-const zirconiaBridgeServiceImg = '/src/assets/images/zirconia_bridge_img_1784928230230.jpg';
+const implantsServiceImg = '/assets/images/dental_implants_img_1784928139754.jpg';
+const invisalignServiceImg = '/assets/images/invisalign_aligners_img_1784928150711.jpg';
+const rootCanalServiceImg = '/assets/images/laser_root_canal_img_1784928162832.jpg';
+const cosmeticSmileServiceImg = '/assets/images/cosmetic_smile_img_1784928176731.jpg';
+const teethWhiteningServiceImg = '/assets/images/teeth_whitening_img_1784928192826.jpg';
+const pediatricServiceImg = '/assets/images/pediatric_dental_img_1784928204990.jpg';
+const wisdomToothServiceImg = '/assets/images/wisdom_tooth_img_1784928216053.jpg';
+const zirconiaBridgeServiceImg = '/assets/images/zirconia_bridge_img_1784928230230.jpg';
 
 // Gallery poster custom images
-const wisdomImpactionPoster = '/src/assets/images/wisdom_impaction_poster_1784958272384.jpg';
-const pediatricOrthoPoster = '/src/assets/images/pediatric_ortho_poster_1784958287471.jpg';
-const completeDenturesPoster = '/src/assets/images/complete_dentures_poster_1784958302667.jpg';
-const jawAlignmentPoster = '/src/assets/images/jaw_alignment_poster_1784958317051.jpg';
-const preventiveHygienePoster = '/src/assets/images/preventive_hygiene_poster_1784958328845.jpg';
+const wisdomImpactionPoster = '/assets/images/wisdom_impaction_poster_1784958272384.jpg';
+const pediatricOrthoPoster = '/assets/images/pediatric_ortho_poster_1784958287471.jpg';
+const completeDenturesPoster = '/assets/images/complete_dentures_poster_1784958302667.jpg';
+const jawAlignmentPoster = '/assets/images/jaw_alignment_poster_1784958317051.jpg';
+const preventiveHygienePoster = '/assets/images/preventive_hygiene_poster_1784958328845.jpg';
 
 export const CLINIC_INFO: ClinicInfo = {
   name: "Vihana Dental Care",

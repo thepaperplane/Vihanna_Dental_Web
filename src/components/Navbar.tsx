@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 import { CLINIC_INFO } from '../data/clinicData';
 import { AuthUser } from '../types';
-import vihannaLogo from '../assets/images/vihanna_dental_logo_1784918513788.jpg';
+const vihannaLogo = '/assets/images/vihanna_dental_logo_1784918513788.jpg';
 
 interface NavbarProps {
   activeTab: string;

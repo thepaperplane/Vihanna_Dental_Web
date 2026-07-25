@@ -1,7 +1,7 @@
 import React from 'react';
 import { CLINIC_INFO, SERVICES } from '../data/clinicData';
 import { MapPin, Phone, Clock, ExternalLink, ShieldCheck, Lock } from 'lucide-react';
-import vihannaLogo from '../assets/images/vihanna_dental_logo_1784918513788.jpg';
+const vihannaLogo = '/assets/images/vihanna_dental_logo_1784918513788.jpg';
 
 interface FooterProps {
   setActiveTab: (tab: string) => void;

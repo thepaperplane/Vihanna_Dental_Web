@@ -8,8 +8,8 @@ import {
   ArrowUpRight
 } from 'lucide-react';
 import { CLINIC_INFO } from '../data/clinicData';
-import vihannaOperatory from '../assets/images/vihanna_operatory_1784918541912.jpg';
-import vihannaDoctor from '../assets/images/vihanna_doctor_1784918556857.jpg';
+const vihannaOperatory = '/assets/images/vihanna_operatory_1784918541912.jpg';
+const vihannaDoctor = '/assets/images/vihanna_doctor_1784918556857.jpg';
 
 interface HeroProps {
   onOpenBooking: () => void;

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { DOCTORS, CLINIC_INFO } from '../data/clinicData';
 import { Award, ShieldCheck, HeartPulse, Sparkles, CheckCircle2, UserCheck, Stethoscope } from 'lucide-react';
-const vihannaDoctor = '/assets/images/vihanna_doctor_1784918556857.jpg';
+const vihannaDoctor = '/images/vihanna_doctor_1784918556857.jpg';
 
 export const AboutUs: React.FC = () => {
   const springTransition = { type: 'spring', stiffness: 100, damping: 20 };

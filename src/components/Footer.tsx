@@ -1,7 +1,7 @@
 import React from 'react';
 import { CLINIC_INFO, SERVICES } from '../data/clinicData';
 import { MapPin, Phone, Clock, ExternalLink, ShieldCheck, Lock } from 'lucide-react';
-const vihannaLogo = '/images/vihanna_dental_logo_1784918513788.jpg';
+const vihannaLogo = '/images/vihana_dental_logo.jpg';
 
 interface FooterProps {
   setActiveTab: (tab: string) => void;
@@ -69,6 +69,11 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, onOpenBooking, onO
               <li>
                 <button onClick={() => setActiveTab('reviews')} className="hover:text-teal-400 transition-colors">
                   Google Patient Reviews (4.9★)
+                </button>
+              </li>
+              <li>
+                <button onClick={() => setActiveTab('faq')} className="hover:text-teal-400 transition-colors">
+                  Frequently Asked Questions (FAQ)
                 </button>
               </li>
               <li>

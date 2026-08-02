@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 import { CLINIC_INFO } from '../data/clinicData';
 import { AuthUser } from '../types';
-const vihannaLogo = '/images/vihanna_dental_logo_1784918513788.jpg';
+const vihannaLogo = '/images/vihana_dental_logo.jpg';
 
 interface NavbarProps {
   activeTab: string;
@@ -35,6 +35,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { id: 'services', label: 'Services' },
     { id: 'gallery', label: 'Gallery' },
     { id: 'reviews', label: 'Reviews' },
+    { id: 'faq', label: 'FAQ' },
     { id: 'location', label: 'Contact & Map' },
   ];
 

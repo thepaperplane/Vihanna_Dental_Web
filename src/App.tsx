@@ -6,6 +6,7 @@ import { AboutUs } from './components/AboutUs';
 import { ServicesView } from './components/ServicesView';
 import { GalleryView } from './components/GalleryView';
 import { TestimonialsView } from './components/TestimonialsView';
+import { FaqSection } from './components/FaqSection';
 import { InquirySection } from './components/InquirySection';
 import { StaffLeadsDashboard } from './components/StaffLeadsDashboard';
 import { LocationMapSection } from './components/LocationMapSection';
@@ -13,6 +14,7 @@ import { AppointmentBookingModal } from './components/AppointmentBookingModal';
 import { WhatsAppAutomationWidget } from './components/WhatsAppAutomationWidget';
 import { AiDentalAssistantModal } from './components/AiDentalAssistantModal';
 import { StaffLoginModal } from './components/StaffLoginModal';
+import { FloatingQuickActions } from './components/FloatingQuickActions';
 import { Footer } from './components/Footer';
 import { AuthUser } from './types';
 
@@ -65,6 +67,10 @@ export function App() {
             <AboutUs />
             <GalleryView />
             <TestimonialsView />
+            <FaqSection 
+              onOpenBooking={() => handleOpenBooking()} 
+              onOpenAiAssistant={() => setIsAiTriageOpen(true)}
+            />
             <InquirySection />
             <LocationMapSection />
           </div>
@@ -74,6 +80,12 @@ export function App() {
         {activeTab === 'services' && <ServicesView onSelectServiceToBook={handleOpenBooking} />}
         {activeTab === 'gallery' && <GalleryView />}
         {activeTab === 'reviews' && <TestimonialsView />}
+        {activeTab === 'faq' && (
+          <FaqSection 
+            onOpenBooking={() => handleOpenBooking()} 
+            onOpenAiAssistant={() => setIsAiTriageOpen(true)}
+          />
+        )}
         {activeTab === 'location' && (
           <div className="space-y-0">
             <InquirySection />
@@ -92,6 +104,12 @@ export function App() {
           />
         )}
       </main>
+
+      {/* Floating Shortcuts Menu */}
+      <FloatingQuickActions
+        onOpenBooking={() => handleOpenBooking()}
+        onOpenWhatsAppBot={() => setActiveTab('whatsapp-simulator')}
+      />
 
       {/* Footer */}
       <Footer

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { InitialLoader } from './components/InitialLoader';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
@@ -42,6 +43,9 @@ export function App() {
     <div className="min-h-screen bg-[#F5F5F7] font-sans text-slate-800 flex flex-col justify-between selection:bg-teal-500 selection:text-white">
       {/* Premium Initial Loader Sequence */}
       <InitialLoader />
+      
+      {/* Vercel Web Analytics */}
+      <Analytics />
 
       {/* Top Sticky Navbar */}
       <Navbar
